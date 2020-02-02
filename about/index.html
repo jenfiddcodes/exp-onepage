@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="E-XP is an employment oriented social network where you can sieze opportunities and gain experience as you go.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-XP</title>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/text.css">
+    <meta name="theme-color" content="#fafafa">
+        <!------------------------Google Fonts--------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fauna+One|Wallpoet&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+<!------------------------HEADER--------------------------->
+    <header>
+      <div class="headerwrapper">
+        <div class="logo">
+          <p> <a href="../index.html">X</a></p>
+        </div>
+        <nav class="rightnav">
+          <ul>
+            <li class="login"><a href="../login/index.html">Log In</a></li>
+            <li><button class="signupbtnnav" onclick="document.getElementById('id01').style.display='inline'">Sign Up</button></li>
+          </ul>
+        </nav>
+     </div>
+    </header>
+
+    <!--SIGN UP FORM HTML ONLY--------------------------------------------------------------->
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content" action="/action_page.php">
+        <h1>REGISTER</h1>
+        <div class="container">
+
+          <div class="name-signup">
+            <label for="firstname"></label>
+            <input type="text" placeholder="FIRST NAME" name="firstname" required>
+            <label for="lastname"></label>
+            <input type="text" placeholder="LAST NAME" name="lastname" required>
+          </div>
+
+          <label for="email"></label>
+          <input type="text" placeholder="EMAIL" name="email" required>
+
+          <label for="psw"></label>
+          <input type="password" placeholder="PASSWORD" name="psw" required>
+
+          <label for="psw-repeat"></label>
+          <input type="password" placeholder="REPEAT PASSWORD" name="psw-repeat" required>
+
+          <input type="checkbox" checked="checked" name="remember">
+          <label class="checktext">REMEMBER ME</label>
+
+          <p class="disclaimer">By clicking "Create Account" you agree to our <a href="#">Terms & Privacy</a> and that you have read our <a href="#">Data Policy</a>, including our cookie use.</p>
+
+          <div>
+            <button type="submit" class="signupbtn">CREATE ACCOUNT</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--END--------------------------------------------------------------->
+
+<main>
+
+  <!------------------------ABOUT--------------------------->
+   <section class="about">
+     <div class="aboutwrapper">
+       <div class="aboutcontent">
+         <h1>GET TO<strong> KNOW </strong> US</h1>
+         <div class="col">
+           <h3>the vision...</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div class="col">
+           <h3>the difference...</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div class="col">
+           <h3>the vibe...</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div class="col">
+           <h3>the goal...</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+        </div>
+      </div>
+   </section>
+
+<!------------------------team members--------------------------->
+   <section class="team">
+      <div class="teamwrapper">
+        <h1>THE<strong> TEAM </strong></h1>
+        <div class="img-group">
+          <div class="member">
+            <div class="circle pic1"></div>
+            <p>Name <br> Title</p>
+          </div>
+          <div class="member">
+            <div class="circle pic2"></div>
+            <p>Name <br> Title</p>
+          </div>
+          <div class="member">
+            <div class="circle pic3"></div>
+            <p>Name <br> Title</p>
+          </div>
+        </div>
+      </div>
+   </section>
+
+<!------------------------social media--------------------------->
+   <section class="social">
+     <h3 class="socialheader"> FOLLOW US</h3>
+     <div class="socialicons">
+       <ul>
+         <li class="grow"> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
+         <li class="grow"> <a href="#"><i class="fab fa-twitter-square"></i></a></li>
+         <li class="grow"> <a href="#"><i class="fab fa-instagram"></i></a></li>
+       </ul>
+     </div>
+   </section>
+</main>
+
+
+<!------------------------FOOTER--------------------------->
+<footer>
+  <div class="footerwrapper">
+   <div class="footernav">
+    <ul>
+      <li class="learnmorebtn"><a href="../about/index.html">Learn More <i class="fas fa-angle-double-right"></i></a></li>
+      <li class="getsupportbtn"><a href="../support/index.html">Need Help? <i class="fas fa-angle-double-right"></i></a></li>
+    </ul>
+   </div>
+   <div class="copyright">
+     <p>Copyright &copy; 2019. All rights reserved.</p>
+   </div>
+ </div>
+</footer>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://kit.fontawesome.com/2b2b1263ed.js" crossorigin="anonymous"></script>
+  <!------------------------JS for the sign up form--------------------------->
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+</body>
+</html>

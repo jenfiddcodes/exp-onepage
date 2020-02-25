@@ -293,6 +293,8 @@ textarea {
      font-family: 'Wallpoet', cursive;
      margin: 0 25px;
      font-weight: normal;
+     justify-content: flex-start;
+     width: 30%;
    }
 
    .rightnav {
@@ -305,8 +307,8 @@ textarea {
    .rightnav ul li{
      font-family: 'nexa_boldregular';
      text-transform: uppercase;
-     padding: 0 25px;
-     display: inline;
+     padding: 0 15px 0 0;
+     display: inline-block;
    }
 
    .rightnav ul li a {
@@ -649,7 +651,8 @@ textarea {
 
     .form-wrapper input[type=text],
     .form-wrapper input[type=email] {
-      background-color: #efefef;
+      /*background-color: #efefef;*/
+      background-color: rgba(78, 62, 142, 0);
       border: none;
       border-bottom: 1.5px solid #353054;
       font-family: 'nexa_boldregular';
@@ -665,13 +668,13 @@ textarea {
 
     .form-wrapper input[type=text]:focus,
     .form-wrapper input[type=email]:focus{
-      background-color: #efefef;
+      background-color: rgba(78, 62, 142, 0);
       color: #353054;
     }
 
     textarea{
       font-family: 'nexa_boldregular';
-      background-color: #efefef;
+      background-color: rgba(78, 62, 142, 0);
       border: none;
       border-bottom: 1.5px solid #353054;
       color: #353054;
@@ -781,7 +784,9 @@ textarea {
       opacity: 0.6;
     }
 
-
+    #loginfooter{
+      padding: 15px 0;
+    }
 
 
 
@@ -888,9 +893,17 @@ textarea {
 
      /* ===========SIGN UP FORM STYLES========= */
      .modal-content {
-       width: 60%; /* Could be more or less, depending on screen size */
+       width: 60%;
      }
 
+     .modal{
+       padding-top: 150px;
+     }
+
+     .close{
+       top: 150px;
+       right: 200px;
+     }
      .name-signup{
       width: 100%;
       justify-content: space-between;
@@ -1070,17 +1083,17 @@ textarea {
 
 
    .form-wrapper{
-     background-color: #efefef;
+     /* background-color: #efefef; */
      border: 5px solid #353054;
      border-radius: 10px;
-     box-shadow: 0px 0px 20px 15px rgba(78, 62, 142, 0.2);
+     /* box-shadow: 0px 0px 20px 15px rgba(78, 62, 142, 0.2); */
      padding: 30px;
      max-width: 60%;
      margin: 50px 100px;
    }
 
    .form-header {
-     width: 90%;
+     max-width: 60%;
    }
 
    .form-header p{
@@ -1102,6 +1115,17 @@ textarea {
      flex-basis: 100%;
    }
 
+       #loginmainwrapper{
+         height: 80vh;
+         max-width: 100vw;
+       }
+
+       #loginfooter{
+         position: absolute;
+         bottom: 0;
+
+       }
+
 
    }
 
@@ -1110,7 +1134,7 @@ textarea {
    /* =======DESKTOP SIZE======================*/
    @media only screen and (min-width: 960px) {
 
-     /* ===========SIGN UP FORM STYLES========= */
+         /* ===========SIGN UP FORM STYLES========= */
 
      .container ::placeholder{
        font-size: 1.25em;
@@ -1121,10 +1145,18 @@ textarea {
        padding: 14px 20px;
      }
 
-     .modal-content {
-       width: 50%; /* Could be more or less, depending on screen size */
+
+
+     /****NAV****/
+
+
+     .logo{
+       margin: 0 50px;
      }
 
+     .rightnav{
+       margin: 0 50px;
+     }
 
 
 
@@ -1153,9 +1185,17 @@ textarea {
          width: 33%;
        }
 
+
    }
 
+   @media only screen and (min-width: 1200px) {
 
+         /* ===========SIGN UP FORM STYLES========= */
+         .modal-content {
+             width: 33.33%; /* Could be more or less, depending on screen size */
+         }
+
+}
 
 
 
